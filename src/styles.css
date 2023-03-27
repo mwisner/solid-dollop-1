@@ -1,0 +1,54 @@
+.search-input {
+  width: 50%;
+  font-size: 20px;
+}
+
+.suggested-search-query {
+  font-family: "Source Sans Pro", "Arial", sans-serif;
+  font-style: italic;
+  margin-bottom: 16px;
+}
+
+.loading {
+  font-family: "Source Sans Pro", "Arial", sans-serif;
+  margin-bottom: 18px;
+}
+
+.error {
+  font-family: "Source Sans Pro", "Arial", sans-serif;
+  margin-bottom: 18px;
+  color: red;
+}
+
+.search-button {
+  width: 25%;
+  font-size: 20px;
+  background-color: black;
+  color: white;
+}
+
+.search-results {
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+}
+
+.search-result {
+  display: flex;
+  border: 1px solid black;
+  font-family: "Source Sans Pro", "Arial", sans-serif;
+}
+
+.search-result-image {
+  width: 40%;
+  max-width: 220px;
+  padding: 8px 30px 8px;
+  border-right: 1px solid black;
+}
+
+.search-result-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 8px;
+}
