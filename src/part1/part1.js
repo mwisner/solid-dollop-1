@@ -1,18 +1,32 @@
 // Directions:
-// Create an publish/subscribe library out of the Events class. The Events class
+// Create a publishing/subscribe library out of the Events class. The Events class
 // should have methods 'subscribe', 'publish', and 'unSubscribe'.
 
+/**
+ * PubSub Implementation
+ */
 class Events {
+
   // subscribe to an event handler
-  subscribe(eventName, callback) {}
+  subscribe(eventName, callback) {
+    // write your implementation here
+  }
 
   // Triggers all callbacks associated with a given eventName
-  publish(eventName) {}
+  publish(eventName) {
+    // write your implementation here
+
+  }
 
   // Remove all event handlers associated with the given eventName
-  unSubscribe(eventName) {}
+  unSubscribe(eventName) {
+    // write your implementation here
+  }
 }
 
+/**
+ * Use
+ */
 const testFunc1 = () => {
   console.log("Hello");
 };
@@ -20,6 +34,9 @@ const testFunc2 = () => {
   console.log("World");
 };
 const events = new Events();
+
+
+
 
 console.log("Output start:");
 events.subscribe("event1", testFunc1);
@@ -42,4 +59,3 @@ events.subscribe("event2", testFunc3);
 //expected output:
 //John Smith
 
-module.exports = Events;
